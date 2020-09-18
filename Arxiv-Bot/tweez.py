@@ -1,8 +1,8 @@
 import tweepy
 from datetime import *
 
-c_key = '4hC9b6O0gfl1AnEXyWYaTPp6D'
-c_secret = '1DS93LurEzMCydu8wICVQSgUmr6P6a8LGXCIX7PnQvqfugOT0c'
+c_key = ''
+c_secret = ''
 
 
 auth = tweepy.AppAuthHandler(c_key, c_secret)
