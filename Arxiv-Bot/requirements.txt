@@ -1,0 +1,4 @@
+beautifulsoup4==4.9.1
+pandas @ file:///C:/ci/pandas_1592833613419/work
+requests @ file:///tmp/build/80754af9/requests_1592841827918/workvirtualenv==20.0.31
+tweepy==3.9.0

@@ -1,0 +1,335 @@
+,title,pub_date,authors,abstract,FTURL
+0,A Network-Based High-Level Data Classification Algorithm Using Betweenness Centrality,2020-09-16,"['Vilca, Esteban', 'Zhao, Liang']","Data classification is a major machine learning paradigm, which has been
+widely applied to solve a large number of real-world problems. Traditional data
+classification techniques consider only physical features (e.g., distance,
+similarity, or distribution) of the input data. For this reason, those are
+called \textit{low-level} classification. On the other hand, the human (animal)
+brain performs both low and high orders of learning and it has a facility in
+identifying patterns according to the semantic meaning of the input data. Data
+classification that considers not only physical attributes but also the pattern
+formation is referred to as \textit{high-level} classification. Several
+high-level classification techniques have been developed, which make use of
+complex networks to characterize data patterns and have obtained promising
+results. In this paper, we propose a pure network-based high-level
+classification technique that uses the betweenness centrality measure. We test
+this model in nine different real datasets and compare it with other nine
+traditional and well-known classification models. The results show us a
+competent classification performance.",http://arxiv.org/pdf/2009.07971.pdf
+1,Skeletonization and Reconstruction based on Graph Morphological Transformations,2020-09-16,"['Memarzadeh, Hossein', 'Yousefi, Bardia', 'P.V., Xavier']","Multiscale shape skeletonization on pixel adjacency graphs is an advanced
+intriguing research subject in the field of image processing, computer vision
+and data mining. The previous works in this area almost focused on the graph
+vertices. We proposed novel structured based graph morphological
+transformations based on edges opposite to the current node based
+transformations and used them for deploying skeletonization and reconstruction
+of infrared thermal images represented by graphs. The advantage of this method
+is that many widely used path based approaches become available within this
+definition of morphological operations. For instance, we use distance maps and
+image foresting transform (IFT) as two main path based methods are utilized for
+computing the skeleton of an image. Moreover, In addition, the open question
+proposed by Maragos et al (2013) about connectivity of graph skeletonization
+method are discussed and shown to be quite difficult to decide in general case.",http://arxiv.org/pdf/2009.07970.pdf
+2,Discovering causal factors of drought in Ethiopia,2020-09-16,"['Noorbakhsh, Mohammad', 'Connaughton, Colm', 'A., Francisco']","Drought is a costly natural hazard, many aspects of which remain poorly
+understood. It has many contributory factors, driving its outset, duration, and
+severity, including land surface, anthropogenic activities, and, most
+importantly, meteorological anomalies. Prediction plays a crucial role in
+drought preparedness and risk mitigation. However, this is a challenging task
+at socio-economically critical lead times (1-2 years), because meteorological
+anomalies operate at a wide range of temporal and spatial scales. Among them,
+past studies have shown a correlation between the Sea Surface Temperature (SST)
+anomaly and the amount of precipitation in various locations in Africa. In its
+Eastern part, the cooling phase of El Nino-Southern Oscillation (ENSO) and SST
+anomaly in the Indian ocean are correlated with the lack of rainfall. Given the
+intrinsic shortcomings of correlation coefficients, we investigate the
+association among SST modes of variability and the monthly fraction of grid
+points in Ethiopia, which are in drought conditions in terms of causality.
+Using the empirical extreme quantiles of precipitation distribution as a proxy
+for drought, We show that the level of SST second mode of variability in the
+prior year influences the occurrence of drought in Ethiopia. The causal link
+between these two variables has a negative coefficient that verifies the
+conclusion of past studies that rainfall deficiency in the Horn of Africa is
+associated with ENSO's cooling phase.",http://arxiv.org/pdf/2009.07955.pdf
+3,How to marry a star: probabilistic constraints for meaning in context,2020-09-16,"['Erk, Katrin', 'Herbelot, Aurelie']","In this paper, we derive a notion of word meaning in context from Fillmore's
+'semantics of understanding', in which a listener draws on their knowledge of
+both language and the world to 'envision' the situation described in an
+utterance. We characterize utterance understanding as a combination of
+cognitive semantics and Discourse Representation Theory, formalized as a
+situation description system:a probabilistic model which takes utterance
+understanding to be the mental process of describing one or more situations
+that would account for an observed utterance. Our model captures the interplay
+of local and global contexts and their joint influence upon the lexical
+representation of sentence constituents. We implement the system using a
+directed graphical model, and apply it to examples containing various
+contextualization phenomena.",http://arxiv.org/pdf/2009.07936.pdf
+4,Exploration of Fine-Grained Parallelism for Load Balancing Eager K-truss on GPU and CPU,2020-09-16,"['Blanco, Mark', 'Meng, Tze', 'Kim, Kyungjoo']","In this work we present a performance exploration on Eager K-truss, a
+linear-algebraic formulation of the K-truss graph algorithm. We address
+performance issues related to load imbalance of parallel tasks in symmetric,
+triangular graphs by presenting a fine-grained parallel approach to executing
+the support computation. This approach also increases available parallelism,
+making it amenable to GPU execution. We demonstrate our fine-grained parallel
+approach using implementations in Kokkos and evaluate them on an Intel Skylake
+CPU and an Nvidia Tesla V100 GPU. Overall, we observe between a 1.261. 48x
+improvement on the CPU and a 9.97-16.92x improvement on the GPU due to our
+fine-grained parallel formulation.",http://arxiv.org/pdf/2009.07929.pdf
+5,Comparison Lift: Bandit-based Experimentation System for Online Advertising,2020-09-16,"['Geng, Tong', 'Lin, Xiliang', 'S., Harikesh', 'Hao, Jun', 'Xiang, Bin', 'Fan, Shurui']","Comparison Lift is an experimentation-as-a-service (EaaS) application for
+testing online advertising audiences and creatives at",http://arxiv.org/pdf/2009.07899.pdf
+6,Captum: A unified and generic model interpretability library for PyTorch,2020-09-16,"['Kokhlikyan, Narine', 'Miglani, Vivek', 'Martin, Miguel', 'Wang, Edward', 'Alsallakh, Bilal', 'Reynolds, Jonathan', 'Melnikov, Alexander', 'Kliushkina, Natalia', 'Araya, Carlos', 'Yan, Siqi', 'Reblitz-Richardson, Orion']","In this paper we introduce a novel, unified, open-source model
+interpretability library for PyTorch [12]. The library contains generic
+implementations of a number of gradient and perturbation-based attribution
+algorithms, also known as feature, neuron and layer importance algorithms, as
+well as a set of evaluation metrics for these algorithms. It can be used for
+both classification and non-classification models including graph-structured
+models built on Neural Networks (NN). In this paper we give a high-level
+overview of supported attribution algorithms and show how to perform
+memory-efficient and scalable computations. We emphasize that the three main
+characteristics of the library are multimodality, extensibility and ease of
+use. Multimodality supports different modality of inputs such as image, text,
+audio or video. Extensibility allows adding new algorithms and features. The
+library is also designed for easy understanding and use. Besides, we also
+introduce an interactive visualization tool called Captum Insights that is
+built on top of Captum library and allows sample-based model debugging and
+visualization using feature importance metrics.",http://arxiv.org/pdf/2009.07896.pdf
+7,Network Analysis of Orchestral Concert Programming,2020-09-16,"['K., Anna']","Orchestral concert programming is a challenging, yet critical task for
+expanding audience engagement and is usually driven by qualitative heuristics
+and common musical practices. Quantitative analysis of orchestral programming
+has been limited, but has become more possible as many orchestras archive their
+performance history online. The contribution of this work is to use statistical
+network models to quantitatively explore orchestral concert programming,
+focusing on which factors determine if two composers are programmed together in
+the same concert by the Boston Symphony Orchestra. We find that the type of
+composition is the most important covariate in determining which composers are
+performed together and the additive and multiplicative effects are logical from
+an orchestral programming perspective. These results suggest that a network
+analysis is a promising approach for the analysis of concert programming, with
+several directions for future extensions.",http://arxiv.org/pdf/2009.07887.pdf
+8,(Un)clear and (In)conspicuous: The right to opt-out of sale under CCPA,2020-09-16,"[""O'Connor, Sean"", 'Nurwono, Ryan', 'Birrell, Eleanor']","The California Consumer Privacy Act (CCPA)---which began enforcement on July
+1, 2020---grants California users the affirmative right to opt-out of the sale
+of their personal information. In this work, we perform a manual analysis of
+the top 500 U.S. websites and classify how each site implements this new
+requirement. We find that the vast majority of sites that implement opt-out
+mechanisms do so with a Do Not Sell link rather than with a privacy banner, and
+that many of the linked opt-out controls exhibit features such as nudging and
+indirect mechanisms (e.g., fillable forms). We then perform a pair of user
+studies with 4357 unique users (recruited from Google Ads and Amazon Mechanical
+Turk) in which we observe how users interact with different opt-out mechanisms
+and evaluate how the implementation choices we observed---exclusive use of
+links, prevalent nudging, and indirect mechanisms---affect the rate at which
+users exercise their right to opt-out of sale. We find that these design
+elements significantly deter interactions with opt-out mechanisms (including
+reducing the opt-out rate for users who are uncomfortable with the sale of
+their information) and that they reduce users' awareness of their ability to
+opt-out. Our results demonstrate the importance of regulations that provide
+clear implementation requirements in order empower users to exercise their
+privacy rights.",http://arxiv.org/pdf/2009.07884.pdf
+9,Using Sensory Time-cue to enable Unsupervised Multimodal Meta-learning,2020-09-16,"['Liu, Qiong', 'Zhang, Yanxia']","As data from IoT (Internet of Things) sensors become ubiquitous,
+state-of-the-art machine learning algorithms face many challenges on directly
+using sensor data. To overcome these challenges, methods must be designed to
+learn directly from sensors without manual annotations. This paper introduces
+Sensory Time-cue for Unsupervised Meta-learning (STUM). Different from
+traditional learning approaches that either heavily depend on labels or on
+time-independent feature extraction assumptions, such as Gaussian distribution
+features, the STUM system uses time relation of inputs to guide the feature
+space formation within and across modalities. The fact that STUM learns from a
+variety of small tasks may put this method in the camp of Meta-Learning.
+Different from existing Meta-Learning approaches, STUM learning tasks are
+composed within and across multiple modalities based on time-cue co-exist with
+the IoT streaming data. In an audiovisual learning example, because consecutive
+visual frames usually comprise the same object, this approach provides a unique
+way to organize features from the same object together. The same method can
+also organize visual object features with the object's spoken-name features
+together if the spoken name is presented with the object at about the same
+time. This cross-modality feature organization may further help the
+organization of visual features that belong to similar objects but acquired at
+different location and time. Promising results are achieved through
+evaluations.",http://arxiv.org/pdf/2009.07879.pdf
+10,Information Bottleneck Constrained Latent Bidirectional Embedding for Zero-Shot Learning,2020-09-16,"['Liu, Yang', 'Zhou, Lei', 'Bai, Xiao', 'Gu, Lin', 'Harada, Tatsuya', 'Zhou, Jun']","Zero-shot learning (ZSL) aims to recognize novel classes by transferring
+semantic knowledge from seen classes to unseen classes. Though many ZSL methods
+rely on a direct mapping between the visual and the semantic space, the
+calibration deviation and hubness problem limit the generalization capability
+to unseen classes. Recently emerged generative ZSL methods generate unseen
+image features to transform ZSL into a supervised classification problem.
+However, most generative models still suffer from the seen-unseen bias problem
+as only seen data is used for training. To address these issues, we propose a
+novel bidirectional embedding based generative model with a tight
+visual-semantic coupling constraint. We learn a unified latent space that
+calibrates the embedded parametric distributions of both visual and semantic
+spaces. Since the embedding from high-dimensional visual features comprise much
+non-semantic information, the alignment of visual and semantic in latent space
+would inevitably been deviated. Therefore, we introduce information bottleneck
+(IB) constraint to ZSL for the first time to preserve essential attribute
+information during the mapping. Specifically, we utilize the uncertainty
+estimation and the wake-sleep procedure to alleviate the noises and improve
+model abstraction capability. We evaluate the learned latent features on four
+benchmark datasets. Extensive experimental results show that our method
+outperforms the state-of-the-art methods in different ZSL settings on most
+benchmark datasets. The code will be available at",http://arxiv.org/pdf/2009.07451.pdf
+11,Exploring Font-independent Features for Scene Text Recognition,2020-09-16,"['Wang, Yizhi', 'Lian, Zhouhui']","Scene text recognition (STR) has been extensively studied in last few years.
+Many recently-proposed methods are specially designed to accommodate the
+arbitrary shape, layout and orientation of scene texts, but ignoring that
+various font (or writing) styles also pose severe challenges to STR. These
+methods, where font features and content features of characters are tangled,
+perform poorly in text recognition on scene images with texts in novel font
+styles. To address this problem, we explore font-independent features of scene
+texts via attentional generation of glyphs in a large number of font styles.
+Specifically, we introduce trainable font embeddings to shape the font styles
+of generated glyphs, with the image feature of scene text only representing its
+essential patterns. The generation process is directed by the spatial attention
+mechanism, which effectively copes with irregular texts and generates
+higher-quality glyphs than existing image-to-image translation methods.
+Experiments conducted on several STR benchmarks demonstrate the superiority of
+our method compared to the state of the art.",http://arxiv.org/pdf/2009.07447.pdf
+12,Multi-Label Activity Recognition using Activity-specific Features,2020-09-16,"['Zhang, Yanyi', 'Li, Xinyu', 'Marsic, Ivan']","We introduce an approach to multi-label activity recognition by extracting
+independent feature descriptors for each activity. Our approach first extracts
+a set of independent feature snippets, focused on different spatio-temporal
+regions of a video, that we call ""observations"". We then generate independent
+feature descriptors for each activity, that we call ""activity-specific
+features"" by combining these observations with attention, and further make
+action prediction based on these activity-specific features. This structure can
+be trained end-to-end and plugged into any existing network structures for
+video classification. Our method outperformed state-of-the-art approaches on
+three multi-label activity recognition datasets. We also evaluated the method
+and achieved state-of-the-art performance on two single-activity recognition
+datasets to show the generalizability of our approach. Furthermore, to better
+understand the activity-specific features that the system generates, we
+visualized these activity-specific features in the Charades dataset.",http://arxiv.org/pdf/2009.07420.pdf
+13,Too Much Information Kills Information: A Clustering Perspective,2020-09-16,"['Xu, Yicheng', 'Chau, Vincent', 'Wu, Chenchen', 'Zhang, Yong', 'Zissimopoulos, Vassilis', 'Zou, Yifei']","Clustering is one of the most fundamental tools in the artificial
+intelligence area, particularly in the pattern recognition and learning theory.
+In this paper, we propose a simple, but novel approach for variance-based
+k-clustering tasks, included in which is the widely known k-means clustering.
+The proposed approach picks a sampling subset from the given dataset and makes
+decisions based on the data information in the subset only. With certain
+assumptions, the resulting clustering is provably good to estimate the optimum
+of the variance-based objective with high probability. Extensive experiments on
+synthetic datasets and real-world datasets show that to obtain competitive
+results compared with k-means method (Llyod 1982) and k-means++ method (Arthur
+and Vassilvitskii 2007), we only need 7% information of the dataset. If we have
+up to 15% information of the dataset, then our algorithm outperforms both the
+k-means method and k-means++ method in at least 80% of the clustering tasks, in
+terms of the quality of clustering. Also, an extended algorithm based on the
+same idea guarantees a balanced k-clustering result.",http://arxiv.org/pdf/2009.07417.pdf
+14,Towards a Contract Service Provider Model for Virtual Assets and VASPs,2020-09-16,"['Hardjono, Thomas', 'Lipton, Alexander', 'Pentland, Alex']","We introduce the contract service provider (CSP) model as an analog of the
+successful Internet ISP model. Our exploration is motivated by the need to seek
+alternative blockchain service-fee models that departs from the
+token-for-operations (gas fee) model for smart contracts found on many popular
+blockchain platforms today. A given CSP community consisting of multiple CSP
+business entities (VASPs) form a contract domain which implement well-defined
+contract primitives, policies and contract-ledger. The nodes of the members of
+CSP community form the blockchain network. We discuss a number of design
+principles borrowed from the design principles of the Internet Architecture,
+and we discuss the interoperability of cross-domain (cross-chain) transfers of
+virtual assets in the context of contract domains.",http://arxiv.org/pdf/2009.07413.pdf
+15,Semantic Property Graph for Scalable Knowledge Graph Analytics,2020-09-16,"['Purohit, Sumit', 'Van, Nhuy']","Graphs are a natural and fundamental representation of describing the
+activities, relationships, and evolution of various complex systems. Many
+domains such as communication, citation, procurement, biology, social media,
+and transportation can be modeled as a set of entities and their relationships.
+Resource Description Framework (RDF) and Labeled Property Graph (LPG) are two
+of the most used data models to encode information in a graph. Both models are
+similar in terms of using basic graph elements such as nodes and edges but
+differ in terms of modeling approach, expressibility, serialization, and target
+applications. RDF is a flexible data exchange model for expressing information
+about entities but it tends to a have high memory footprint and inefficient
+storage, which does not make it a natural choice to perform scalable graph
+analytics. In contrast, LPG has gained traction as a reliable model in
+performing scalable graph analytic tasks such as sub-graph matching, network
+alignment, and real-time knowledge graph query. It provides efficient storage,
+fast traversal, and flexibility to model various real-world domains. At the
+same time, the LPGs lack the support of a formal knowledge representation such
+as an ontology to provide automated knowledge inference. We propose Semantic
+Property Graph (SPG) as a logical projection of reified RDF into LPG model. SPG
+continues to use RDF ontology to define type hierarchy of the projected graph
+and validate it against a given ontology. We present a framework to convert
+reified RDF graphs into SPG using two different computing environments. We also
+present cloud-based graph migration capabilities using Amazon Web Services.",http://arxiv.org/pdf/2009.07410.pdf
+16,EfficientNet-eLite: Extremely Lightweight and Efficient CNN Models for Edge Devices by Network Candidate Search,2020-09-16,"['Wang, Ching-Chen', 'Chiu, Ching-Te', 'Chang, Jheng-Yi']","Embedding Convolutional Neural Network (CNN) into edge devices for inference
+is a very challenging task because such lightweight hardware is not born to
+handle this heavyweight software, which is the common overhead from the modern
+state-of-the-art CNN models. In this paper, targeting at reducing the overhead
+with trading the accuracy as less as possible, we propose a novel of Network
+Candidate Search (NCS), an alternative way to study the trade-off between the
+resource usage and the performance through grouping concepts and elimination
+tournament. Besides, NCS can also be generalized across any neural network. In
+our experiment, we collect candidate CNN models from EfficientNet-B0 to be
+scaled down in varied way through width, depth, input resolution and compound
+scaling down, applying NCS to research the scaling-down trade-off. Meanwhile, a
+family of extremely lightweight EfficientNet is obtained, called
+EfficientNet-eLite. For further embracing the CNN edge application with
+Application-Specific Integrated Circuit (ASIC), we adjust the architectures of
+EfficientNet-eLite to build the more hardware-friendly version,
+EfficientNet-HF. Evaluation on ImageNet dataset, both proposed
+EfficientNet-eLite and EfficientNet-HF present better parameter usage and
+accuracy than the previous start-of-the-art CNNs. Particularly, the smallest
+member of EfficientNet-eLite is more lightweight than the best and smallest
+existing MnasNet with 1.46x less parameters and 0.56% higher accuracy. Code is
+available at",http://arxiv.org/pdf/2009.07409.pdf
+17,Asking Complex Questions with Multi-hop Answer-focused Reasoning,2020-09-16,"['Ma, Xiyao', 'Zhu, Qile', 'Zhou, Yanlin', 'Li, Xiaolin', 'Wu, Dapeng']","Asking questions from natural language text has attracted increasing
+attention recently, and several schemes have been proposed with promising
+results by asking the right question words and copy relevant words from the
+input to the question. However, most state-of-the-art methods focus on asking
+simple questions involving single-hop relations. In this paper, we propose a
+new task called multihop question generation that asks complex and semantically
+relevant questions by additionally discovering and modeling the multiple
+entities and their semantic relations given a collection of documents and the
+corresponding answer 1. To solve the problem, we propose multi-hop
+answer-focused reasoning on the grounded answer-centric entity graph to include
+different granularity levels of semantic information including the word-level
+and document-level semantics of the entities and their semantic relations.
+Through extensive experiments on the HOTPOTQA dataset, we demonstrate the
+superiority and effectiveness of our proposed model that serves as a baseline
+to motivate future work.",http://arxiv.org/pdf/2009.07402.pdf
+18,High-Performance Mining of COVID-19 Open Research Datasets for Text Classification and Insights in Cloud Computing Environments,2020-09-16,"['Zhao, Jie', 'A., Maria', 'Buyya, Rajkumar']","COVID-19 global pandemic is an unprecedented health crisis. Since the
+outbreak, many researchers around the world have produced an extensive
+collection of literatures. For the research community and the general public to
+digest, it is crucial to analyse the text and provide insights in a timely
+manner, which requires a considerable amount of computational power. Clouding
+computing has been widely adopted in academia and industry in recent years. In
+particular, hybrid cloud is gaining popularity since its two-fold benefits:
+utilising existing resource to save cost and using additional cloud service
+providers to gain assess to extra computing resources on demand. In this paper,
+we developed a system utilising the Aneka PaaS middleware with parallel
+processing and multi-cloud capability to accelerate the ETL and article
+categorising process using machine learning technology on a hybrid cloud. The
+result is then persisted for further referencing, searching and visualising.
+Our performance evaluation shows that the system can help with reducing
+processing time and achieving linear scalability. Beyond COVID-19, the
+application might be used directly in broader scholarly article indexing and
+analysing.",http://arxiv.org/pdf/2009.07399.pdf
+19,Does Link Prediction Help Detect Feature Interactions in Software Product Lines (SPLs)?,2020-09-15,"['Khoshmanesh, Seyedehzahra', 'Lutz, Robyn']","An ongoing challenge for the requirements engineering of software product
+lines is to predict whether a new combination of features (units of
+functionality) will create an unwanted or even hazardous feature interaction.
+We thus seek to improve and automate the prediction of unwanted feature
+interactions early in development. In this paper, we show how the detection of
+unwanted feature interactions in a software product line can be effectively
+represented as a link prediction problem. Link prediction uses machine learning
+algorithms and similarity scores among a graph's nodes to identify likely new
+edges. We here model the software product line features as nodes and the
+unwanted interactions among the features as edges. We investigate six
+link-based similarity metrics, some using local and some using global knowledge
+of the graph, for use in this context. We evaluate our approach on a software
+product line benchmark in the literature, building six machine-learning models
+from the graph-based similarity data. Results show that the best ML algorithms
+achieved an accuracy of 0.75 to 1 for classifying feature interactions as
+unwanted or wanted in this small study and that global similarity metrics
+performed better than local similarity metrics. The work shows how
+link-prediction models can help find missing edges, which represent unwanted
+feature interactions that are undocumented or unrecognized, earlier in
+development.",http://arxiv.org/pdf/2009.07392.pdf
+20,Pardon the Interruption: An Analysis of Gender and Turn-Taking in U.S. Supreme Court Oral Arguments,2020-09-15,"['Lepp, Haley', 'Levow, Gina-Anne']","This study presents a corpus of turn changes between speakers in U.S. Supreme
+Court oral arguments. Each turn change is labeled on a spectrum of
+""cooperative"" to ""competitive"" by a human annotator with legal experience in
+the United States. We analyze the relationship between speech features, the
+nature of exchanges, and the gender and legal role of the speakers. Finally, we
+demonstrate that the models can be used to predict the label of an exchange
+with moderate success. The automatic classification of the nature of exchanges
+indicates that future studies of turn-taking in oral arguments can rely on
+larger, unlabeled corpora.",http://arxiv.org/pdf/2009.07391.pdf
+21,Creation and Validation of a Chest X-Ray Dataset with Eye-tracking and Report Dictation for AI Tool Development,2020-09-15,"['Karargyris, Alexandros', 'Kashyap, Satyananda', 'Lourentzou, Ismini', 'Wu, Joy', 'Sharma, Arjun', 'Tong, Matthew', 'Abedin, Shafiq', 'Beymer, David', 'Mukherjee, Vandana', 'A, Elizabeth', 'Moradi, Mehdi']","We developed a rich dataset of Chest X-Ray (CXR) images to assist
+investigators in artificial intelligence. The data were collected using an eye
+tracking system while a radiologist reviewed and reported on 1,083 CXR images.
+The dataset contains the following aligned data: CXR image, transcribed
+radiology report text, radiologist's dictation audio and eye gaze coordinates
+data. We hope this dataset can contribute to various areas of research
+particularly towards explainable and multimodal deep learning / machine
+learning methods. Furthermore, investigators in disease classification and
+localization, automated radiology report generation, and human-machine
+interaction can benefit from these data. We report deep learning experiments
+that utilize the attention maps produced by eye gaze dataset to show the
+potential utility of this data.",http://arxiv.org/pdf/2009.07386.pdf
