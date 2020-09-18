@@ -4,5 +4,5 @@ Sample Data Pull can be seen in 'arxiv_metadata.csv'
 - The requirements for the same can be installed with `pip install requirments.txt`
 ### Improvements
 - Currently the bot outputs a CSV. We can instead choose to pipeline it to a DB.
-- It as been tested for Windows Task Scheduler and can be experimented with CronTab
+- It has been tested for Windows Task Scheduler and can be experimented with CronTab
 - The code can be optimized by creating functions out of the blocks and reducing time complexity
